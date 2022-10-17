@@ -28,4 +28,4 @@ after_success:
   - docker push phat99/reverseproxy:v2
   - docker push phat99/udagram-api-feed:v2
   - docker push phat99/udagram-api-user:v2
-  - docker push phat99/udagram-frontend:v12
+  - docker push phat99/udagram-frontend:2
