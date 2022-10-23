@@ -7,8 +7,8 @@ export const config = {
   aws_region: process.env.AWS_REGION,
   aws_profile: process.env.AWS_PROFILE,
   aws_media_bucket: process.env.AWS_BUCKET,
-  aws_access_key_id: "AKIAZ3U3L7YRSPP4YZTU",
-  aws_secret_access_key: "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",
+  aws_access_key_id: "AKIASTNO3K4OKCYWVBXD",
+  aws_secret_access_key: "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",
   url: process.env.URL,
   jwt: {
     secret: process.env.JWT_SECRET,
