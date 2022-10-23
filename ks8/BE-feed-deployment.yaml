@@ -1,9 +1,6 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
- annotations:
-    # This annotation is only required if you are creating an internal facing ELB. Remove this annotation to create public facing ELB.
-    service.beta.kubernetes.io/aws-load-balancer-internal: "true"
   name: backend-feed
   labels:
     app: backend-feed
@@ -17,10 +14,9 @@ spec:
       labels:
         app: backend-feed
     spec:
-      type: LoadBalancer
       containers:
         - name: backend-feed
-          image: phat99/udagram-api-feed:v2
+          image: phat99/udagram-api-feed:v3
           imagePullPolicy: Always
           resources:
             requests:

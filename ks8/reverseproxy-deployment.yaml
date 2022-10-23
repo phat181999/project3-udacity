@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: udagram-reverseproxy
-          image: phat99/reverseproxy:v2
+          image: phat99/reverseproxy:v3
           imagePullPolicy: Always
           resources:
             requests:
