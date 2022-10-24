@@ -4,10 +4,10 @@ metadata:
   name: configuration-values
 data:
   POSTGRES_DB: postgres
-  POSTGRES_HOST: dbproject3.cizgxfork1ex.us-east-1.rds.amazonaws.com
+  POSTGRES_HOST: project3udagram.c4yfkyqlfjl6.us-east-1.rds.amazonaws.com
 
   AWS_REGION: us-east-1
   AWS_PROFILE: default
-  AWS_BUCKET: test-project3-dev
+  AWS_BUCKET: project-3-s3
 
   URL: http://localhost:8100
