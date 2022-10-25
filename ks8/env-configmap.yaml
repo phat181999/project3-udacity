@@ -10,4 +10,4 @@ data:
   AWS_PROFILE: default
   AWS_BUCKET: project-3-s3
 
-  URL: URL=http://localhost:8080
+  URL: http://localhost:8080
