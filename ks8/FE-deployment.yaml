@@ -16,7 +16,7 @@ spec:
         api: external
     spec:
       containers:
-        - image: phat99/udagram-frontend:v8
+        - image: phat99/udagram-frontend:v9
           name: udagram-frontend
           imagePullPolicy: Always
           ports:
